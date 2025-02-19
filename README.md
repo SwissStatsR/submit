@@ -58,7 +58,7 @@ Contact information can be found in the [About](https://swissstatsr.org/about.ht
 
 ## Submit an R package
 
-Your R package should follow best practices. See "[R package (2e)](https://r-pkgs.org/)" free ebook.
+Your R package should follow best practices. See "[R package (2e)](https://r-pkgs.org/)" free online book.
 
 The R package should have an open source license such as MIT, GPL or LGPL:
 
