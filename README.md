@@ -30,6 +30,10 @@ SwissStatsR hosts only R projects passing all R-CMD-Checks.
 If you have R scripts related to Swiss statistics which could be useful to the 
 R community, you can submit an GitHub repository containing R scripts.
 
+The following GitHub repository is an example of an SwissStatsR project:
+
+- https://github.com/SwissStatsR/submit
+
 ### `DESCRIPTION` file
 
 Your repository should contains metadata about your project in 
