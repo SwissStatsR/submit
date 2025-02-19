@@ -52,10 +52,21 @@ helpers, such as:
 We ask you to also add R package dependencies of your R project. As a
 helper, you can use `usethis::use_package()`.
 
+We strongly recommend you to use [renv](https://rstudio.github.io/renv/articles/renv.html) 
+to track the dependencies of your R project.
+
+``` r
+renv::init()
+```
+
 ### `.Rbuildignore` file
 
 All files and folders (except R packages required folders and files, see above) 
-should be listed in the `.Rbuildignore` file. For this you can use `usethis::use_build_ignore()`.
+should be listed in the `.Rbuildignore` file. For this you can use:
+
+``` r
+usethis::use_build_ignore()
+```
 
 If you R project contains R functions and tests, we recommend you to add them in 
 the "R" and "tests" folder and follow [R package guidelines](https://r-pkgs.org/code.html).
