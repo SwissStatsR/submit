@@ -1,10 +1,12 @@
 Package: submit
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Title: How to Submit R packages and Projects to SwissStatsR
+Version: 0.1.0
+Authors@R: c(
+    person("Felix", "Luginbuhl", email = "felix.luginbuehl@sg.ch", role = c("aut", "cre"), comment = c(ORCID = "0009-0008-6625-2899")),
+    person("Fachstelle für Statistik Kanton St.Gallen", role = c("cph", "fnd"))
+    )
+Description: This repository is an example of a SwissStatsR project. It also
+  explains how to submit R packages and R projects to SwissStatsR.org.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
