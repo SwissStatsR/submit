@@ -11,9 +11,7 @@ This page explains how to submit R packages and R projects to SwissStatsR.org.
 
 ![](images/collaboration-workflow.png)
 
-::: {.vertical-center}
-[Click here to make a submission](https://airtable.com/appTkja7O6oOv6zZ8/pagrVmrt4pUqqKLX6/form){.btn .btn-outline-primary .btn role="button"} 
-::: 
+[Click here to make a submission](https://airtable.com/appTkja7O6oOv6zZ8/pagrVmrt4pUqqKLX6/form){.btn .btn-outline-primary .btn role="button"}
 
 #### 1. Your Code
 
@@ -56,9 +54,7 @@ This page explains how to submit R packages and R projects to SwissStatsR.org.
 
 Contact information can be found in the [About](https://swissstatsr.org/about.html) section.
 
-::: {.vertical-center}
-[Click here to make a submission](https://airtable.com/appTkja7O6oOv6zZ8/pagrVmrt4pUqqKLX6/form){.btn .btn-outline-primary .btn role="button"} 
-::: 
+[Click here to make a submission](https://airtable.com/appTkja7O6oOv6zZ8/pagrVmrt4pUqqKLX6/form){.btn .btn-outline-primary .btn role="button"}
 
 ## Submit an R package
 
