@@ -16,7 +16,7 @@ This page explains how to submit R packages and R projects to SwissStatsR.org.
 #### 1. Your Code
 
 -   Any R script can be submitted to SwissStatsR.
--   Our only requirement is to be related to Swiss Statistics.
+-   Our only requirement is to be open source and related to Swiss Statistics.
 -   Make a submission using the [form](https://airtable.com/appTkja7O6oOv6zZ8/pagrVmrt4pUqqKLX6/form) or by [email](https://swissstatsr.org/about.html).
 
 #### 2. GitHub Private
@@ -29,27 +29,26 @@ This page explains how to submit R packages and R projects to SwissStatsR.org.
 
 [^1]: The use of GitHub is recommended to ease collaboration and leverage R-CMD-Check GitHub Actions.
 
--   SwissStatsR public release of R code is only possible as an open-source [R package](https://r-pkgs.org/).
-- The R package can be hosted on any GitHub repository, including [SwissStatsR GitHub](https://github.com/SwissStatsR), or another DevOps public provider[^1].
--   The R package should have an GitHub Action [R-CMD-Check](https://r-pkgs.org/R-CMD-check.html) badge:
+-   R packages and R projects (see next sections) can be hosted on any GitHub repository, including [SwissStatsR GitHub](https://github.com/SwissStatsR), or another DevOps public provider[^1].
+-   They should have an GitHub Action [R-CMD-Check](https://r-pkgs.org/R-CMD-check.html) badge:
     -   [`usethis::use_github_action()`](https://usethis.r-lib.org/reference/github_actions.html)
--   The R package should have an [open source license](https://r-pkgs.org/license.html) such as MIT, GPL or LGPL:
+-   They should have an [open source license](https://r-pkgs.org/license.html) such as MIT, GPL or LGPL:
     -   for example: [`usethis::use_gpl3_license()`](https://usethis.r-lib.org/reference/licenses.html)
 
 #### 4. R-Universe
 
--   The open source R package should pass [R-CMD-Check](https://r-pkgs.org/R-CMD-check.html).
--   It should also be [well documented](https://r-pkgs.org/man.html).
+-   Open source R package or R project should pass [R-CMD-Check](https://r-pkgs.org/R-CMD-check.html).
+-   They should be [well documented](https://r-pkgs.org/man.html).
 -   [Unit tests](https://r-pkgs.org/testing-basics.html) are recommended but not mandatory.
 -   Adding a [SwissStatsR badge](https://swissstatsr.r-universe.dev/badges) is optional.
 
 #### 5. SwissStatsR.org
 
--   Once the R package hits the [SwissStatsR Universe](https://swissstatsr.r-universe.dev/), it will be added on [SwissStatsR.org](https://swissstatsr.org/).
+-   Once the R package or R project hit the [SwissStatsR Universe](https://swissstatsr.r-universe.dev/), it will be added on [SwissStatsR.org](https://swissstatsr.org/).
 
 #### 6. Promotion (optional)
 
--   You can write an article about your R package on [our blog](https://swissstatsr.substack.com/).
+-   You can write an article about your project on [our blog](https://swissstatsr.substack.com/).
 -   Subscribe to our blog [here](https://swissstatsr.substack.com/).
 
 Contact information can be found in the [About](https://swissstatsr.org/about.html) section.
