@@ -78,12 +78,24 @@ The following GitHub repository is an example of an SwissStatsR project:
 
 - https://github.com/SwissStatsR/submit
 
+### `/R` folder
+
+All R scripts should be in the `/R` folder, following (R package guidelines)[https://r-pkgs.org/code.html]. Some reasons are:
+
+-	With `devtools::load_all()`, it is really easy to setup the environment.
+-	Everyone knows where to find the functions.
+- This folder structure is the standard for R packages, but also for other projects such as `golem` (R shiny) and `targets`.
+
+### `/tests` folder
+
+All tests should be in the `/tests` folder. More information about tests can be found (here)[https://r-pkgs.org/testing-basics.html].
+
 ### `DESCRIPTION` file
 
 Your repository should contains metadata about your project in 
 a `[DESCRIPTION](https://r-pkgs.org/description.html)` file. Even if your project 
 is not an R package, this file helps us standardize metadata collection 
-among all SwissStatsR projects.
+among all SwissStatsR projects, such as contacts and licensing.
 
 You can create the `DESCRIPTION` file with:
 
@@ -107,10 +119,11 @@ to track the dependencies of your R project.
 renv::init()
 ```
 
-### `.Rbuildignore` file
+### Other files
 
-All files and folders (except R packages required folders and files, see above) 
-should be listed in the `.Rbuildignore` file. For this you can use:
+If for some reasons the R projects cannot follow an R package structure, all 
+the other files and folders should be listed in the `.Rbuildignore` file. 
+For this you can use:
 
 ``` r
 usethis::use_build_ignore()
