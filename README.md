@@ -81,7 +81,7 @@ The following GitHub repository is an example of an SwissStatsR project:
 ### `DESCRIPTION` file
 
 Your repository should contains metadata about your project in 
-a `[DESCRIPTION](https://r-pkgs.org/description.html)` file. Even if your project 
+a [DESCRIPTION](https://r-pkgs.org/description.html) file. Even if your project 
 is not an R package, this file helps us standardize metadata collection 
 among all SwissStatsR projects, such as contacts and licensing.
 
@@ -109,7 +109,7 @@ renv::init()
 
 ### `/R` folder
 
-All R scripts should be in the `/R` folder, following (R package guidelines)[https://r-pkgs.org/code.html]. Some reasons are:
+All R scripts should be in the `/R` folder, following [R package guidelines](https://r-pkgs.org/code.html). Some reasons are:
 
 -	With `devtools::load_all()`, it is really easy to setup the environment.
 -	Everyone knows where to find the functions.
