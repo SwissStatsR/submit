@@ -100,16 +100,10 @@ helpers, such as:
 We ask you to also add R package dependencies of your R project. As a
 helper, you can use `usethis::use_package()`.
 
-We strongly recommend you to use [renv](https://rstudio.github.io/renv/articles/renv.html) 
-to track the dependencies of your R project.
-
-``` r
-renv::init()
-```
-
 ### `/R` folder
 
-All R scripts should be in the `/R` folder, following [R package guidelines](https://r-pkgs.org/code.html). Some reasons are:
+We strongly recommend to have all the R function in the `/R` folder, 
+following [R package guidelines](https://r-pkgs.org/code.html). Some reasons are:
 
 -	With `devtools::load_all()`, it is really easy to setup the environment.
 -	Everyone knows where to find the functions.
@@ -121,6 +115,8 @@ All tests should be in the `/tests` folder. More information about tests can be 
 
 ### Other files
 
+Other R scripts and files can be added to the `/inst` and `/scripts` folders.
+
 If for some reasons the R projects cannot follow an R package structure, all 
 the other files and folders should be listed in the `.Rbuildignore` file. 
 For this you can use:
@@ -131,6 +127,26 @@ usethis::use_build_ignore()
 
 If you R project contains R functions and tests, we recommend you to add them in 
 the "R" and "tests" folder and follow [R package guidelines](https://r-pkgs.org/code.html).
+
+### `.gitignore` file
+
+You can avoid sharing specific files and folder using the `.gitignore` file, in
+particular sensitive files.
+
+Please note as you are the only responsible of the data shared on GitHub.
+
+### renv
+
+We strongly recommend you to use [renv](https://rstudio.github.io/renv/articles/renv.html) 
+to track the dependencies of your R project with snapshots. Snapshots should be
+done using the most R version possible.
+
+``` r
+renv::init()
+```
+
+You can choose to add a specific badge in the README showing your R project is fully
+reproducible using `renv`.
 
 ### Checks
 
