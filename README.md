@@ -78,18 +78,6 @@ The following GitHub repository is an example of an SwissStatsR project:
 
 - https://github.com/SwissStatsR/submit
 
-### `/R` folder
-
-All R scripts should be in the `/R` folder, following (R package guidelines)[https://r-pkgs.org/code.html]. Some reasons are:
-
--	With `devtools::load_all()`, it is really easy to setup the environment.
--	Everyone knows where to find the functions.
-- This folder structure is the standard for R packages, but also for other projects such as `golem` (R shiny) and `targets`.
-
-### `/tests` folder
-
-All tests should be in the `/tests` folder. More information about tests can be found (here)[https://r-pkgs.org/testing-basics.html].
-
 ### `DESCRIPTION` file
 
 Your repository should contains metadata about your project in 
@@ -118,6 +106,18 @@ to track the dependencies of your R project.
 ``` r
 renv::init()
 ```
+
+### `/R` folder
+
+All R scripts should be in the `/R` folder, following (R package guidelines)[https://r-pkgs.org/code.html]. Some reasons are:
+
+-	With `devtools::load_all()`, it is really easy to setup the environment.
+-	Everyone knows where to find the functions.
+- This folder structure is the standard for R packages, but also for other projects such as `golem` (R shiny) and `targets`.
+
+### `/tests` folder
+
+All tests should be in the `/tests` folder. More information about tests can be found (here)[https://r-pkgs.org/testing-basics.html].
 
 ### Other files
 
