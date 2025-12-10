@@ -1,3 +1,0 @@
-FROM rocker/binder
-
-COPY DESCRIPTION DESCRIPTION
